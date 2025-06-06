@@ -1,0 +1,109 @@
+body{
+  padding:0; 
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+}
+.mainPart{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 25px 0 0 25px;
+    position: relative;      
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 10px rebeccapurple;
+}
+
+.mainPart:hover{
+    transform: translateY(5px);
+}
+
+.left{
+    
+    position: relative;
+    
+}
+
+.img{
+    position: relative;
+    margin: 28px 50px;
+}
+.overlay{
+
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 25px 25px 0 25px;
+    
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    top:93%;
+    left: 100%;
+    height: 20px;
+    width: 20px;
+    background-color: blueviolet;
+}
+.overlay::after{
+    border-radius: 0 0 0 25px;
+    background-color: white;
+    overflow: hidden;
+
+}
+.dp{
+    padding: 10px;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 1px solid blue;
+}
+
+p{
+    margin: 0px;
+    padding: 2px;;
+   color: aliceblue;
+   text-align: center;
+}
+
+.cardDetails{
+    padding:2px 15px 10px 15px;
+    color: blueviolet;
+    position: relative;
+    margin-top: 102px;;
+  
+}
+.contact i{
+    padding:0 15px 8px 12px;
+}
+.contact a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.divider{
+    background-color: rgb(138, 43, 226,0.5);
+    margin: 20px;
+    height: 2px;
+    width: 200px;
+    
+
+}
+.socialMedia{
+    padding-left: 60px;
+}
+.socialMedia i{
+    align-items: center;
+    margin: 10px;
+
+}
