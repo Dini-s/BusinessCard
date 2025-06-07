@@ -1,6 +1,6 @@
 This is a simple digital business card created using HTML and CSS. It displays personal details like name, role, contact info, and social media links in a clean, responsive layout.
-
-🔧 Technologies Used
+<p>
+🔧 Technologies Used</p>
 
      HTML for structure
      CSS for styling and layout
