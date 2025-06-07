@@ -2,9 +2,9 @@ This is a simple digital business card created using HTML and CSS. It displays p
 <p>
 🔧 Technologies Used</p>
 
-     HTML for structure
-     CSS for styling and layout
+-HTML for structure<br>
+-CSS for styling and layout
 
-     📸 Preview
+<p>📸 Preview</p>
 
 ![image alt](https://github.com/Dini-s/BusinessCard/blob/d53e0c4a780c0e7028a34171ebaf28c0b9548879/Screenshot%202025-06-07%20010248.png)
