@@ -112,3 +112,69 @@ p{
     margin: 10px;
 
 }
+@media only screen and (max-width: 420px) and (max-height: 920px)  {
+    body{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        align-items: stretch;
+       
+    }
+    .mainPart{
+        flex-direction: column;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 20px; 
+        margin: 10px auto;
+        transform: none !important;
+    }
+
+    .left{
+        width: 100%;
+        text-align: center;
+
+    }
+    .img{
+        margin: 10px auto;
+    }
+    .overlay{
+        border-radius: 20px 20px 0 0;
+
+    }
+    .overlay::before,
+    .overlay::after{
+        display: none;
+    }
+    .dp{
+        width: 100px;
+        height: 100px;
+    }
+    .cardDetails{
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+    .contact i{
+        padding: 10px ;
+    }
+    
+    .divider{
+        margin: 15px 60px;
+    }
+
+    .socialMedia{
+        padding-left: 20px;
+        flex-wrap: wrap;
+    }
+    
+
+
+    
+
+    
+
+
+
+
+    
+}
