@@ -2,7 +2,7 @@ This is a simple digital business card created using HTML and CSS. It displays p
 <p>
 🔧 Technologies Used</p>
 
--HTML for structure
+-HTML for structure<br>
 -CSS for styling and layout
 
 <p>📸 Preview</p>
