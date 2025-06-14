@@ -7,4 +7,4 @@ This is a simple digital business card created using HTML and CSS. It displays p
 
 <p>📸 Preview</p>
 
-![image alt](https://github.com/Dini-s/BusinessCard/blob/d53e0c4a780c0e7028a34171ebaf28c0b9548879/Screenshot%202025-06-07%20010248.png)
+![image alt](https://github.com/Dini-s/BusinessCard/blob/4b2c4bd0d13553d788f17f45cca93b14d1dc9a29/Screenshot%202025-06-14%20183858.png)
